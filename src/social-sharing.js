@@ -25,7 +25,7 @@ export default {
      */
     title: {
       type: String,
-      default: ''
+      default: inBrowser ? document.title : ''
     },
 
     /**

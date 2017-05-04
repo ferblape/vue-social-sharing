@@ -80,7 +80,7 @@ var SocialSharing = {
      */
     title: {
       type: String,
-      default: ''
+      default: inBrowser ? document.title : ''
     },
 
     /**
